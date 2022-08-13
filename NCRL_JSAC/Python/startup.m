@@ -1,0 +1,1 @@
+run /home/aidin/cvx/cvx/cvx_startup.m

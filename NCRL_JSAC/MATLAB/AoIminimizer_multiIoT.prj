@@ -1,0 +1,482 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3249500998" file="C:\Users\walids\Desktop\Federated_UAV\MATLAB\AoIminimizer_multiIoT.prj" location="C:\Users\walids\Desktop\Federated_UAV\MATLAB" name="AoIminimizer_multiIoT" preferred-package-location="C:\Users\walids\Desktop\Federated_UAV\MATLAB\AoIminimizer_multiIoT\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.library" target-name="Library Compiler">
+    <param.appname>AoIminimizer_multiIoT</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\AoIminimizer_multiIoT\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes>You must have Python 2.7, 3.5, 3.6, and/or 3.7 on your machine to install this package. Go to the directory containing your package and the file setup.py and execute:
+
+        python setup.py install [options]
+
+For details, see GettingStarted.html, distributed with this package, or the official Python documentation at:
+
+        https://docs.python.org/2/install/index.html</param.target.install.notes>
+    <param.intermediate>${PROJECT_ROOT}\AoIminimizer_multiIoT\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\AoIminimizer_multiIoT\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\AoIminimizer_multiIoT\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\AoIminimizer_multiIoT</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.python.module</param.target.type>
+    <param.support.packages />
+    <param.namespace />
+    <param.classorg />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.user.only.registration>false</param.user.only.registration>
+    <param.assembly.type>false</param.assembly.type>
+    <param.encryption.key.file />
+    <param.net.enable.remoting>false</param.net.enable.remoting>
+    <param.net.tsa.enable>false</param.net.tsa.enable>
+    <param.net.tsa.assembly />
+    <param.net.tsa.interface />
+    <param.net.tsa.namespace />
+    <param.net.tsa.superclass>Class1</param.net.tsa.superclass>
+    <param.net.tsa.metadata />
+    <param.net.tsa.metadata.assembly>C:\Users\walids\Desktop\Federated_UAV\MATLAB</param.net.tsa.metadata.assembly>
+    <param.net.saved.interface />
+    <param.cpp.api>option.cpp.all</param.cpp.api>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.support.packages />
+      <param.namespace />
+      <param.classorg />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.user.only.registration />
+      <param.assembly.type />
+      <param.encryption.key.file />
+      <param.net.enable.remoting />
+      <param.net.tsa.enable />
+      <param.net.tsa.assembly />
+      <param.net.tsa.interface />
+      <param.net.tsa.namespace />
+      <param.net.tsa.superclass />
+      <param.net.tsa.metadata />
+      <param.net.tsa.metadata.assembly />
+      <param.net.saved.interface />
+      <param.cpp.api />
+    </unset>
+    <fileset.exports>
+      <file>${PROJECT_ROOT}\AoIminimizer_multiIoT.m</file>
+      <file>${PROJECT_ROOT}\check_terminal.m</file>
+    </fileset.exports>
+    <fileset.classes>
+      <entity.package name="">
+        <entity.class name="Class1">
+          <file>${PROJECT_ROOT}\AoIminimizer_multiIoT.m</file>
+          <file>${PROJECT_ROOT}\check_terminal.m</file>
+        </entity.class>
+      </entity.package>
+    </fileset.classes>
+    <fileset.resources />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\AoIminimizer_multiIoT.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\abs.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\blkdiag.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\builtins.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\cat.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\conj.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\conv.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\ctranspose.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\cumprod.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\cumsum.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\diag.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\disp.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\end.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\eq.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\exp.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\find.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\full.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\ge.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\gt.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\hankel.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\horzcat.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\imag.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\ipermute.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\isreal.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\kron.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\ldivide.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\le.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\log.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\lt.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\max.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\min.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\minus.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\mldivide.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\mpower.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\mrdivide.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\mtimes.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\ne.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\nnz.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\norm.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\permute.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\plus.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\polyval.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\power.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\prod.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\rdivide.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\real.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\reshape.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\size.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\sparse.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\spy.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\sqrt.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\std.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\subsasgn.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\subsref.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\sum.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\times.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\toeplitz.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\transpose.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\tril.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\triu.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\uminus.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\uplus.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\var.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvx\vertcat.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvxcnst\eq.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvxcnst\ge.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvxcnst\gt.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvxcnst\le.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvxcnst\lt.m</file>
+      <file>C:\Users\walids\Downloads\cvx\builtins\@cvxcnst\ne.m</file>
+      <file>C:\Users\walids\Downloads\cvx\commands\@cvx\commands.m</file>
+      <file>C:\Users\walids\Downloads\cvx\commands\cvx_begin.m</file>
+      <file>C:\Users\walids\Downloads\cvx\commands\cvx_end.m</file>
+      <file>C:\Users\walids\Downloads\cvx\cvx_error.m</file>
+      <file>C:\Users\walids\Downloads\cvx\cvx_license.p</file>
+      <file>C:\Users\walids\Downloads\cvx\cvx_version.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\avg_abs_dev.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\avg_abs_dev_med.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\berhu.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\cvx_recip.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\det_inv.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\det_rootn.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\functions.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\geo_mean.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\huber_pos.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\inv_pos.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\lambda_max.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\lambda_sum_largest.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\log_normcdf.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\log_sum_exp.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\matrix_frac.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\norm_nuc.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\norms.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\pow_abs.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\pow_cvx.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\pow_p.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\pow_pos.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\prod_inv.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\quad_form.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\quad_over_lin.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\quad_pos_over_lin.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\rel_entr.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\sigma_max.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\square.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\square_abs.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\square_pos.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\sum_largest.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\sum_log.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\sum_square.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\sum_square_abs.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\sum_square_pos.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\trace_inv.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\trace_sqrtm.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\@cvx\vec.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\det_inv.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\det_rootn.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\geo_mean.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\inv_pos.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\lambda_max.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\log_sum_exp.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\matrix_frac.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\norms.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\poly_env.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\pow_abs.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\pow_pos.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\prod_inv.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\quad_form.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\quad_over_lin.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\rel_entr.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\sigma_max.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\square_abs.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\square_pos.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\sum_square.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\sum_square_abs.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\sum_square_pos.m</file>
+      <file>C:\Users\walids\Downloads\cvx\functions\vec_\vec.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cell\cvx_id.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cell\cvx_setdual.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cell\cvx_value.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\bcompress.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\buncompress.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\cvx.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\cvx_basis.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\cvx_classify.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\cvx_constant.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\cvx_getdual.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\cvx_isaffine.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\cvx_isconcave.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\cvx_isconstant.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\cvx_isconvex.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\cvx_isnonzero.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\cvx_readlevel.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\cvx_setdual.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\cvx_value.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\cvx_vexity.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\in.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\keywords.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\matlab6.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\sets.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\sparsify.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\svec.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\type.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvx\value.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxcnst\cvxcnst.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxcnst\disp.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxcnst\display.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxcnst\double.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxcnst\logical.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxcnst\rhs.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxdual\colon.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxdual\cvx_basis.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxdual\cvx_value.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxdual\cvxaff.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxdual\cvxdual.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxdual\disp.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxdual\display.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxdual\dof.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxdual\inuse.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxdual\isreal.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxdual\name.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxdual\problem.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxdual\size.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxdual\subsref.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxdual\type.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxdual\value.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxobj\cvx_id.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxobj\cvxobj.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxobj\disp.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxobj\display.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxobj\isempty.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxobj\isequal.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxobj\length.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxobj\ndims.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxobj\numel.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxobj\subsasgn.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxobj\subsref.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\cvx_value.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\cvxprob.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\disp.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\eliminate.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\eq.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\extract.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\index.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\ne.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\newcnstr.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\newdual.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\newnonl.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\newobj.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\newtemp.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\newvar.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\pop.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\solve.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\spy.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\subsasgn.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\subsref.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxprob\touch.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\apply.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\cvx_collapse.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\cvx_constant.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\cvx_getdual.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\cvx_id.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\cvx_isaffine.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\cvx_isconcave.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\cvx_isconstant.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\cvx_isconvex.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\cvx_setdual.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\cvx_value.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\cvxtuple.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\disp.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\eq.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\ge.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\gt.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\in.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\le.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\lt.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\ne.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\numel.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\subsasgn.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\subsref.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\@cvxtuple\testall.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_accept_concave.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_accept_convex.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_basis.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_bcompress.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_bcompress_mex.mexw64</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_c2r.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_check_dimension.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_check_dimlist.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_class.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_classify.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_clearpath.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_clearspath.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_collapse.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_constant.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_default_dimension.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_eliminate_mex.mexw64</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_expand_dim.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_expert_check.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_getdual.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_global.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_id.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_ids.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_isaffine.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_isconcave.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_isconstant.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_isconvex.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_isnonzero.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_r2c.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_readlevel.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_reduce_size.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_remap.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_reshape.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_setdual.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_setpath.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_setspath.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_size_check.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_subs2str.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_subsasgn.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_subsref.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_use_sparse.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_value.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_vexity.m</file>
+      <file>C:\Users\walids\Downloads\cvx\lib\cvx_zeros.m</file>
+      <file>C:\Users\walids\Downloads\cvx\structures\@cvx\structures.m</file>
+      <file>C:\Users\walids\Downloads\cvx\structures\cvx_create_structure.m</file>
+      <file>C:\Users\walids\Downloads\cvx\structures\cvx_invert_structure.m</file>
+      <file>C:\Users\walids\Downloads\cvx\structures\cvx_orthog_structure.m</file>
+      <file>C:\Users\walids\Downloads\cvx\structures\cvx_replicate_structure.m</file>
+      <file>C:\Users\walids\Downloads\cvx\structures\cvx_s_banded.m</file>
+      <file>C:\Users\walids\Downloads\cvx\structures\cvx_s_symmetric.m</file>
+    </fileset.depfun>
+    <fileset.package />
+    <fileset.examples>
+      <file>${PROJECT_ROOT}\testcheck_terminal.m</file>
+    </fileset.examples>
+    <fileset.documentation />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\AoIminimizer_multiIoT\for_testing" name="AoIminimizer_multiIoT" optional="false">C:\Users\walids\Desktop\Federated_UAV\MATLAB\AoIminimizer_multiIoT\for_testing\AoIminimizer_multiIoT</file>
+      <file location="${PROJECT_ROOT}\AoIminimizer_multiIoT\for_testing" name="setup.py" optional="false">C:\Users\walids\Desktop\Federated_UAV\MATLAB\AoIminimizer_multiIoT\for_testing\setup.py</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
